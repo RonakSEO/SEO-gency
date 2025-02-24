@@ -6,6 +6,6 @@
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ],
-  "domains": ["ronakdave.com", "www.ronakdave.com"],
+
   "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
