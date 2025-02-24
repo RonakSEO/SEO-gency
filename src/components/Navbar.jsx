@@ -17,7 +17,7 @@ export default function Navbar() {
       <nav className="flex items-center justify-between p-6 lg:px-8 max-w-7xl mx-auto" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="text-2xl font-bold text-blue-600">Growth Shuttle</span>
+            <span className="text-2xl font-bold text-blue-600">SEOsouk</span>
           </a>
         </div>
         <div className="flex lg:hidden">
