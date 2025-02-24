@@ -20,7 +20,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               className="text-4xl font-bold tracking-tight text-white-900 sm:text-6xl"
-              style={{ color: 'white' }}
+              style={{ color: window.innerWidth >= 1024 ? 'white' : 'black' }}
             >
               Next-Gen SEO Agency
             </motion.h1>
