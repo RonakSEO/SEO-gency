@@ -16,12 +16,13 @@ export default function Hero() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <motion.h1
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 0 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="text-4xl font-bold tracking-tight text-white-900 sm:text-6xl" style={{"color":"white"}}
+              className="text-4xl font-bold tracking-tight text-white-900 sm:text-6xl"
+              style={{ color: window.innerWidth >= 1024 ? 'white' : 'black' }}
             >
-             Next-Gen SEO Agency
+              Next-Gen SEO Agency
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
