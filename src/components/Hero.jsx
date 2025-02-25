@@ -30,7 +30,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mt-6 text-lg leading-8 text-gray-600"
             >
-              Transform your online presence with our expert SEO services. We help businesses achieve top search rankings
+              SEOSouk is an SEO Agency that help businesses achieve top search rankings
               and drive sustainable organic growth through proven strategies.
             </motion.p>
             <motion.div
