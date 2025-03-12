@@ -22,7 +22,7 @@ export default function Hero() {
               className="text-4xl font-bold tracking-tight text-white-900 sm:text-6xl"
               style={{ color: window.innerWidth >= 1024 ? 'white' : 'black' }}
             >
-              Next-Gen SEO Agency
+              Next-Gen SEO Company in Ahmedabad
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="mt-6 text-lg leading-8 text-gray-600"
             >
-              SEOSouk is an SEO Agency that help businesses achieve top search rankings
+              SEOSouk is an SEO Company in Ahmedabad that help businesses achieve top search rankings
               and drive sustainable organic growth through proven strategies.
             </motion.p>
             <motion.div
