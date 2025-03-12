@@ -24,6 +24,7 @@
     <meta property="og:description" content="Leading SEO agency helping businesses achieve top search rankings and drive organic traffic through data-driven strategies and proven results." />
     <meta property="og:image" content="/favicon_io/logo2.png" />
     <meta property="og:url" content="https://www.ronakdave.com/" />
+    <meta name="robots" content="noindex, nofollow">
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="SEOSouk | An SEO Agency you are Looking For" />
     <meta name="twitter:description" content="Leading SEO agency helping businesses achieve top search rankings and drive organic traffic through data-driven strategies and proven results." />
@@ -40,5 +41,24 @@
   <body class="bg-white">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          const urlParams = new URLSearchParams(window.location.search);
+          const ref = urlParams.get('ref');
+      
+          if (ref === "test") {
+              // Store referral in localStorage to persist across pages
+              localStorage.setItem('referral_source', ref);
+              
+              // Show a discount message dynamically
+              const discountMessage = document.createElement("div");
+              discountMessage.innerHTML = `<p style="background:#ff0; padding:10px; text-align:center; font-size:18px;">
+                  Special Offer: 10% off for visitors from ${ref.toUpperCase()}! Contact us and mention this offer.
+              </p>`;
+              document.body.prepend(discountMessage);
+          }
+      });
+      </script>
+      
   </body>
 </html>
